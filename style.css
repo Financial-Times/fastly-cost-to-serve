@@ -1,0 +1,26 @@
+@CHARSET "UTF-8";
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width:100%;
+	
+}
+
+td, th {
+	padding: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+	width:50px
+}
+
+th {border:3px solid #ccc;
+   text-align: center;
+   width:70px;
+   background-color: #336600;
+   color:#ffffff
+}
+
+tr:nth-child(even) {
+	background-color:  #f2ffe6;
+}
